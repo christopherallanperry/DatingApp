@@ -11,33 +11,43 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-- SQLite
-- Angular 2+
-- Dev environment tools
-- others
+To run this project, you will need to have the following prerequisites installed:
 
-```
-Give examples
-```
+- [ASP.net Core SDK](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install) - the code was created using v2.2.106
+- [SQLite](http://sqlitebrowser.org/) - the db was created in v3.11.2
+- [NodeJS](https://nodejs.org/en/) - v11.2.0 was used
+- [Angular 2+](https://angular.io/) - v6.0.3 used here
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+#### API
+From the CLI, navigate into the `DatingApp.API` folder and run...
 
 ```
-Give the example
+$ dotnet watch run
 ```
 
-And repeat
+Once running, you should be able to test the API using either Postman, Insomnia, or any other similar REST client to ensure that the API is serving data on `http://localhost:5000/api/`
+
+#### Single Page Application (Angular Frontend)
+
+From the CLI, navigate into the `DatingApp-SPA` folder and run... 
 
 ```
-until finished
+$ npm i
 ```
+... to install the dependencies.
+
+
+To start the server, run...
+
+```
+$ ng serve
+```
+If it doesn't do so automatically, navigate to `http://localhost:4200/`, to see the Angular SPA page
 
 End with an example of getting some data out of the system or using it for a little demo
+
+
 
 ## Running the tests
 
