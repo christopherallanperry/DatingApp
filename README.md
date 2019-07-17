@@ -1,24 +1,20 @@
 # DatingApp
-Udemy Course - Build an app with ASPNET Core and Angular from scratch
-
-## DOTNET Core API
-
-## Angular 2+ Frontend App
+This repo was created by following the Udemy Course - ["Build an app with ASPNET Core and Angular from scratch"](https://www.udemy.com/build-an-app-with-aspnet-core-and-angular-from-scratch/). 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system - TLDR: I've not tried a live deployment yet.
 
 ### Prerequisites
 
 To run this project, you will need to have the following prerequisites installed:
 
-- [ASP.net Core SDK](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install) - the code was created using v2.2.106
-- [SQLite](http://sqlitebrowser.org/) - the db was created in v3.11.2
-- [NodeJS](https://nodejs.org/en/) - v11.2.0 was used
-- [Angular 2+](https://angular.io/) - v6.0.3 used here
+- [ASP.net Core SDK](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install) - created using v2.2.106
+- [SQLite](http://sqlitebrowser.org/) - created using v3.11.2
+- [NodeJS](https://nodejs.org/en/) - created using v11.2.0
+- [Angular 2+](https://angular.io/) - created using v6.0.3
 
-### Installing
+### Installation
 #### API (DotNet Core / SQLite Backend)
 From the CLI, navigate into the `DatingApp.API` folder and run...
 
@@ -28,9 +24,11 @@ $ dotnet watch run
 
 Once running, you should be able to test the API using either Postman, Insomnia, or any other similar REST client to ensure that the API is serving data on `http://localhost:5000/api/`
 
+Note: Should you need to change the port the server is running on, this is configured in `DatingApp.API/Properties/launchSettings.json`. The SPA would need a matching change of port number at `DatingApp-SPA/src/app/_services/auth.service.ts`.
+
 #### Single Page Application (Angular Frontend)
 
-From the CLI, navigate into the `DatingApp-SPA` folder and run... 
+From the CLI, navigate into the `DatingApp-SPA` folder and run...
 
 ```
 $ npm i
@@ -43,10 +41,9 @@ To start the SPA server, run...
 ```
 $ ng serve
 ```
-If it doesn't do so automatically, navigate to `http://localhost:4200/`, to see the Angular SPA page
+If it doesn't do so automatically, navigate to `http://localhost:4200/`, to see the Angular SPA page, register a username and password to have a look at how the app works inside.
 
-End with an example of getting some data out of the system or using it for a little demo
-
+Note: Should you need to change the port the server is running on, this is configured in `DatingApp-SPA/e2e/protractor.conf.js`
 
 
 ## Running the tests
