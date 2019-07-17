@@ -19,7 +19,7 @@ To run this project, you will need to have the following prerequisites installed
 - [Angular 2+](https://angular.io/) - v6.0.3 used here
 
 ### Installing
-#### API
+#### API (DotNet Core / SQLite Backend)
 From the CLI, navigate into the `DatingApp.API` folder and run...
 
 ```
@@ -38,7 +38,7 @@ $ npm i
 ... to install the dependencies.
 
 
-To start the server, run...
+To start the SPA server, run...
 
 ```
 $ ng serve
