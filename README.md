@@ -16,7 +16,7 @@ To run this project, you will need to have the following prerequisites installed
 
 ### Installation
 #### API (DotNet Core / SQLite Backend)
-From the CLI, navigate into the `DatingApp.API` folder and run...
+From your command line / terminal, navigate into the `DatingApp.API` folder and run...
 
 ```
 $ dotnet watch run
@@ -28,7 +28,7 @@ Note: Should you need to change the port the server is running on, this is confi
 
 #### Single Page Application (Angular Frontend)
 
-From the CLI, navigate into the `DatingApp-SPA` folder and run...
+From your command line / terminal, navigate into the `DatingApp-SPA` folder and run...
 
 ```
 $ npm i
@@ -48,11 +48,11 @@ Note: Should you need to change the port the server is running on, this is confi
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+_TBD_ Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+_TBD_ Explain what these tests test and why
 
 ```
 Give an example
@@ -60,7 +60,7 @@ Give an example
 
 ### And coding style tests
 
-Explain what these tests test and why
+_TBD_ Explain what these tests test and why
 
 ```
 Give an example
@@ -68,27 +68,25 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+_TBD_ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* TBD
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read _TBD_ for details on our code of conduct, and the process for submitting pull requests.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+_TBD_
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Chris Perry** - *Initial work* - [christopherallanperry](https://github.com/christopherallanperry)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/christopherallanperry/DatingApp/graphs/contributors) who have participated in this project.
 
 ## License
 
@@ -96,6 +94,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Udemy course tutor, Neil Cummings
