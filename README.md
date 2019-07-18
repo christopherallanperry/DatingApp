@@ -18,7 +18,7 @@ To run this project, you will need to have the following prerequisites installed
 #### API (DotNet Core / SQLite Backend)
 From your command line / terminal, navigate into the `DatingApp.API` folder and run...
 
-```
+```cli
 $ dotnet watch run
 ```
 
@@ -30,7 +30,7 @@ Note: Should you need to change the port the server is running on, this is confi
 
 From your command line / terminal, navigate into the `DatingApp-SPA` folder and run...
 
-```
+```cli
 $ npm i
 ```
 ... to install the dependencies.
@@ -38,7 +38,7 @@ $ npm i
 
 To start the SPA server, run...
 
-```
+```cli
 $ ng serve
 ```
 If it doesn't do so automatically, navigate to `http://localhost:4200/`, to see the Angular SPA page, register a username and password to have a look at how the app works inside.
