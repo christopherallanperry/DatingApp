@@ -22,9 +22,9 @@ From your command line / terminal, navigate into the `DatingApp.API` folder and 
 $ dotnet watch run
 ```
 
-Once running, you should be able to test the API using either Postman, Insomnia, or any other similar REST client to ensure that the API is serving data on `http://localhost:5000/api/`
+Once running, you should be able to test the API using either Postman, Insomnia, or any other REST client to ensure that the API is serving data on `http://localhost:5000/api/`
 
-Note: Should you need to change the port the server is running on, this is configured in `DatingApp.API/Properties/launchSettings.json`. The SPA would need a matching change of port number at `DatingApp-SPA/src/app/_services/auth.service.ts`.
+**Note:** Should you need to change the port the server is running on, this is configured in `DatingApp.API/Properties/launchSettings.json`. The SPA would need a matching change of port number at `DatingApp-SPA/src/app/_services/auth.service.ts`.
 
 #### Single Page Application (Angular Frontend)
 
