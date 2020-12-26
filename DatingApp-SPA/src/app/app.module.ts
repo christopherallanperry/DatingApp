@@ -33,7 +33,7 @@ import { AuthGuard } from './_guards/auth.guard';
       HttpClientModule,
       FormsModule,
       BsDropdownModule.forRoot(),
-      RouterModule.forRoot(appRoutes)
+      RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' })
    ],
    providers: [
       AuthService,
