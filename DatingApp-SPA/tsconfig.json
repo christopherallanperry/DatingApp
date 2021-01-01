@@ -1,7 +1,4 @@
 {
-  "angularCompilerOptions": {
-      "enableIvy": false
-    },
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
@@ -21,5 +18,8 @@
       "es2017",
       "dom"
     ]
+  },
+  "angularCompilerOptions": {
+    "enableIvy": false
   }
 }
